@@ -20,7 +20,7 @@ class AdminSeeder extends Seeder
             'address' => fake()->address,
             'phone' => fake()->phoneNumber,
             'gender' => 'Male',
-            'email' => 'admin@mail.com',
+            'email' => 'admin@gmail.com',
             'password' => bcrypt('password')
         ])->assignRole('Admin', 'User')
             ->givePermissionTo('manage-all', 'customer',);

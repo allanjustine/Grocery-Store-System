@@ -27,6 +27,14 @@
                                     {{ auth()->user()->carts()->count() }}
                                 </span></a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/send-testenrollment"><i class="far fa-paper-plane"></i> Send
+                                Test Enrollment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/sendmail"><i class="far fa-paper-plane"></i> Send
+                                Mail</a>
+                        </li>
                     @endauth
                 @endrole
                 <li class="nav-item dropdown">
